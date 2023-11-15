@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GuGuDan">
+      <UniqueIdentifier>{82b63ea6-7130-4c32-99e3-bc0e0819466e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{4c188f3d-86f4-4cb4-8cf4-b9b4fe6e1d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ISP">
+      <UniqueIdentifier>{5895e64b-b66e-4429-88e7-7d739d5a8b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RoadLaneDetector">
+      <UniqueIdentifier>{f698ac8a-34b5-49db-bb73-fad415f8c4a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImageProcs.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="01.C++Basic.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="02.C++GUGU.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GuGuDan.cpp">
+      <Filter>GuGuDan</Filter>
+    </ClCompile>
+    <ClCompile Include="03.ISP_Basic.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="04.ISP_ColorSpace.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="05.IPS_ColorHSV.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="06.ISP_HistoEq.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ISP.cpp">
+      <Filter>ISP</Filter>
+    </ClCompile>
+    <ClCompile Include="07.ISP_GammaCorrection.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="08.ISP_Filter_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="08.ISP_Filter_2.cpp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="08.ISP_Filter_3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="08.ISP_Filter_n.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="08.ISP_Filter_sobel.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="08.ISP_Filter_gaussian_using_sigma.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RoadLaneDetector.cpp">
+      <Filter>RoadLaneDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>RoadLaneDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="09.ISP_ShapeInfo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="09.ISP_ShapeInfo_stop.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GuGuDan.h">
+      <Filter>GuGuDan</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ISP.h">
+      <Filter>ISP</Filter>
+    </ClInclude>
+    <ClInclude Include="RoadLaneDetector.h">
+      <Filter>RoadLaneDetector</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
