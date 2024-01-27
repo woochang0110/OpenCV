@@ -4,4 +4,4 @@
 
 <br><br><br><br><br><br>
 
-![https://program-developers-story.tistory.com/49]
+[![프로젝트 발표자료]](https://program-developers-story.tistory.com/49)<br>
